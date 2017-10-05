@@ -1,0 +1,2 @@
+<h3>Thank you, your  post Ads  has been successfully received.</h3>
+<h5>Thank you [#$store_name#].</h5>

@@ -1,0 +1,70 @@
+﻿/* Main Menu */
+
+#menu-main {
+	background: #022f5f url(../images/back-menu-blue3.png) repeat-x top left;
+	border-top-color: #09346a;
+}
+
+#menu-main .current-menu-item a,
+#menu-main a:hover, 
+#menu-main a:active {
+	color: #edc951;
+} 
+
+#menu-main .current-menu-item li a {
+	color: #aaa;
+}
+
+#menu-main li {
+	border-bottom-color: #0b3e7f;
+}
+
+#menu-main a {
+	color: #fff;
+}
+
+#menu-main .dropdown li:hover ul,
+#menu-main .dropdown .sfHover ul {
+	border-top-color: #0c4893;
+}
+
+#menu-main .dropdown li:hover li ul,
+#menu-main .dropdown .sfHover li ul {
+	border-top-color: #0c4893;
+}
+
+div.navigation .current { background-color: #09346a; }
+div.navigation a:hover {
+	background-color: #09346a; 
+	color: #fff;
+}
+
+/* Footer Contact Info */
+
+#content div.wrapper {
+	border-bottom-color: #09346a;
+}
+
+.wrapper-footer-contacts {
+	background: #022f5f url(../images/back-menu-blue3.png) repeat-x top left;
+}
+
+.footer-additional a {
+	color: #edc951;
+}
+
+.footer-additional a:hover {
+	color: #fff;
+}
+
+#menu-main .toggle_mobile_menu { 
+	background: transparent url(../images/icon-lines-blue3.png) no-repeat top left; 
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+
+	#menu-main .current-menu-item li a {
+		color: #fff;
+	}
+}

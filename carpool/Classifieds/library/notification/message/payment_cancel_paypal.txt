@@ -1,0 +1,2 @@
+<h3>Sorry for cancellation of your order</h3>
+<h5>Thank you for visit at [#$store_name#].</h5>

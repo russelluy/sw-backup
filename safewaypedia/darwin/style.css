@@ -1,0 +1,859 @@
+/*
+Theme Name: Darwin
+Theme URI: http://phocks.org/category/themes/darwin/
+Description: A minimalist, evolutionary WordPress theme, able to adapt over time through small mutations. A free theme based on <a href="http://binarybonsai.com/wordpress/kubrick/">Kubrick</a>, inspired by <a href="http://en.wikipedia.org/wiki/Charles_Darwin">Charles Darwin</a>, and licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+Version: 0.1.3
+Author: Joshua Byrd
+Author URI: http://phocks.org/
+Tags: open source, free, fixed width, minimalist
+
+	Darwin v0.1.3
+	http://phocks.org/
+	
+	A minimalist, evolutionary WordPress theme, able to adapt over time through small mutations. 
+	A free theme based on Kubrick, inspired by Charles Darwin.
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+WORKING
+*/
+
+
+
+/* Begin Typography & Colors */
+body {
+	margin: 0;
+	padding: 0;	
+	background: white;
+	text-align: center;
+	}
+
+#block {
+	background-color: white;
+	margin: auto;
+	text-align:center;	
+	}
+
+#page {
+	border: medium none;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    top: -92px;
+    width: 920px;
+	}	
+
+#headering{
+    font-family: Times New Roman;
+    font-size: 30px;
+    font-weight: bold;
+    left: 6px;
+    position: relative;
+    top: -83px;
+    z-index: 1;
+    color: #A0D2D1;}
+    
+#headering_msg{
+    border-top: 1px dotted #CCCCCC;
+    color: #aaa;
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: lighter;
+    left: 6px;
+    padding-top: 3px;
+    position: relative;
+    top: 81px;
+    width: 399px;
+    z-index: 10;}
+
+#header_img{background-image: url("images/Safewaypedia_head.png");
+    background-repeat: no-repeat;
+    height: 175px;
+    margin: 0 3px 0 0;
+    width: 960px;}
+
+#page {border-bottom: 1px dotted #CCCCCC;width:}
+#header.single {			/* So the header is in line with the next on single page view */
+	width: 510px;
+	margin: 0 auto;
+	}
+
+#content {
+	font-family: verdana;
+    font-size: 14px;	
+	}
+#content .post h2 a {
+	font-family: verdana;
+    font-weight: bold;
+    font-size: 20px!important;
+    color:#000!important;	
+    text-decoration:none;
+    margin-bottom:5px;
+	}
+    
+
+.widecolumn .entry p {
+	font-size: 1.0em;
+	}
+
+.narrowcolumn .entry, .widecolumn .entry {
+	line-height: 1.6em;
+	}
+
+.widecolumn {
+	line-height: 1.6em;
+	}
+
+.narrowcolumn .postmetadata {
+	text-align: left;
+    font-size: 11px;
+	}
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+
+/* Footer
+------------------------------------------------------*/
+#footer{width:960px; font-size:11px; margin:0 ; color:#686868; background-color:#eee; line-height:14px; float:left;}
+#footer a, #footer a:visited{color:#686868; text-decoration:none;}
+#footer p{font-size:11px; color:#686868;}
+.footer1 .widget,.footer2 .widget,.footer3 .widget {margin-bottom: 20px;}
+.footer1{
+    float: left;
+    margin: 20px 0 20px 30px;
+    padding: 5px 30px 5px 0;
+    text-align: left;
+    width: 255px;}
+.footer2{ float: left;margin: 20px 0 20px 30px;padding: 5px 30px 5px 0;width: 255px;}
+.footer3{float: right;margin: 41px 0 20px 30px;padding: 5px 30px 5px 0;width: 255px;text-align:right;}
+.footer1 ul,.footer2 ul,.footer3 ul{margin:0px; padding:0px; font-size:11px; list-style-type:none;}
+.footer1 ul li,.footer2 ul li,.footer3 ul li{list-style:none;	border-bottom:solid 1px #686868; line-height:24px; text-align:left;}
+.footer3 h3{color:#686868;}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;	
+	}
+
+h1, h3 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;/* font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-weight: normal;
+	}
+
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 5em;
+	text-align: left;
+	}
+
+#header .description {	
+	font-size: 1.1em; 
+	text-align:left;
+	margin-left: 3px;	
+	}
+	
+#header h1 {
+	font-size: 3.5em;
+	font-weight: bold;
+	}
+
+h2.pagetitle {
+	font-size: 15px;
+	}
+
+#sidebar h2 {
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+    color: #333;
+	}
+
+h3, h3 a, h3 a:hover, h3 a:visited,#wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: #2583ad;
+	}
+	
+.entry p a:visited:hover {
+	color: #06c;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	background: #fff;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, strike {
+	color: #72B2B1;
+	}
+
+code {
+	font: 1.0em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h3 a:hover, h1 a:hover {
+	color: #eb7d72;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+
+.narrowcolumn {
+	float: left;
+    margin: 0 6px;
+    padding: 0 0 20px;
+    width: 650px;
+	}
+
+.widecolumn {
+	margin: 5px 0 0 20px;
+    padding: 10px 0 20px;
+    width: 600px;
+	}
+
+.post {
+	border-bottom: 1px dotted #CCCCCC;
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+	}
+
+.post hr {
+	display: block;
+	}
+
+.widecolumn .post {
+	margin: 0;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+	}
+
+.widecolumn .smallattachment {
+	text-align: center;
+	float: left;
+	width: 128px;
+	margin: 5px 5px 5px 0px;
+}
+
+.widecolumn .attachment {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.postmetadata {
+	clear: left;
+}
+
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+h1 {	
+	margin: 10px 0;
+	}
+
+h2 {
+	margin: 30px 0 0;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: left;
+}
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+#content p img {
+	border: 5px solid #eee;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	float:right; 
+  padding:5px 12px 0px 0px;
+  display: inline;
+	}
+
+img.alignleft {
+	float:left; 
+  padding:5px 12px 0px 0px;
+  display: inline;
+	}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+  margin-bottom: 10px;  
+}
+	
+.alignright {
+	float: right;
+    margin: 0 0 15px 0;
+	}
+
+.alignleft {
+	float: left
+    margin: 0 0 15px 0;
+	}
+/* End Images */
+
+
+
+/* Begin Lists
+
+/* Global
+------------------------------------------------------*/
+html,body{height:100%}
+body{
+font-family:Tahoma, Arial, Verdana;
+font-size:12px;
+margin:0 auto;
+padding:0;
+background-image:url(images/bg-body.jpg);
+background-repeat:repeat;
+color:#6f6f6f;
+height:100%;
+}
+*{
+margin:0;
+padding:0;
+}
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	}
+
+html>body .entry li {
+	margin: 3px 0 4px 10px;
+	}
+
+.entry ul li:before, #sidebar ul ul li:before {
+	content: "\00BB \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+
+
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+#searchform {
+	background-color: #DCDCD5;
+    height: 26px;
+    margin: 0 auto !important;
+    padding: 5px 3px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 14px;
+    width: 235px;
+	}
+
+#sidebar #searchform #s {
+	border: 1px solid #CCCCCC;
+    height: 15px;
+    padding: 2px;
+    width: 129px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 502px;
+	padding:2px;	
+	}
+
+#commentform #submit {
+	margin: 0 0 20px 0;
+	float: left;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+#sidebar
+{
+	background-color: #F5F5ED;
+    border-left: 1px dotted #CCCCCC;
+    border-right: 1px dotted #CCCCCC;
+    border-bottom: 1px dotted #CCCCCC;
+    float: right;
+    margin-left: 12px;
+    padding: 50px 20px 10px;
+    width: 200px;
+    position:absolute;
+    right: 4px;
+    font-size: 12px;
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+/* End Sidebar */
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+	
+.hidden {
+	display: none;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+#content p img.wp-smiley {
+	border: 0;
+	position: relative;
+	top: 2px;
+	}
+/* End Various Tags & Classes*/
+
+
+
+#page-container{width:988px; margin:0 auto;}
+.page-container-inner{width:988px; background-image:url(images/bg-container.png); float:left;}
+.frame{width:960px; margin:0 auto;}
+#top-header{height:88px; background-image:url(images/n_strip-line.gif); background-position:right top; background-repeat:no-repeat;border-bottom: 1px solid #AA0B00;}
+.top-header_lft{float:left;width:512px; }
+.logo{width:400px; height: 39px;padding:25px 0 0 3px; float:left;}
+.top-header_lft_bot{float:left;width:540px;height:24px;background-image:url(images/redbar.gif);background-repeat: no-repeat;font-family: verdana;font-size: 12px;font-style: italic;}
+.top-header_lft_bot_lft{color: #FFFFFF;float: left;margin: 5px 0 0 -6px;width: 220px;}
+.top-header_lft_bot_mid{color: #FFFFFF;float: left;margin: 5px 0 0 11px;width: 145px;}
+.top-header_lft_bot_rt{color: #FFFFFF;float: left;width: 149px;margin-top: 1px;cursor: pointer;}
+.top-header_rt{float:right;width:444px;position: relative;z-index: 2;}
+.top-header_rt_nav{float: left;position: absolute;width: 446px;}
+
+/* Top Navigation bar menu styling */
+#nav-menu {
+    float: left;
+    list-style-type: none;
+    margin: 0 0 5px 0;
+    position: relative;
+    width: 542px;
+    z-index: 2;}
+#nav {margin:0px; padding:0px 0px 0px 0px; float:left;}
+#nav ul{ 
+padding:0;
+margin:0;
+width:auto;
+list-style: none;
+position: relative;
+
+}
+#nav li{
+list-style:none;
+float:left;
+text-align:center;
+padding:0;
+font:normal 11px Tahoma, Arial, Verdana;
+
+
+}
+#nav li a {
+z-index: 10;
+display: block;
+float: left;
+position: relative;
+overflow: hidden;
+color:#fff;
+text-decoration:none;
+}
+#nav li a:hover,
+#nav li.current_page_item a {
+z-index: 10;
+display: block;
+float: left;
+position: relative;
+overflow: hidden;
+color: #fff;
+}
+/* TOP NAV */
+#nav li ul {
+	position: absolute;
+	left: -800em;
+	height: auto;
+	width: 120px;
+	font-weight: normal;
+	margin-top: 20px;
+	z-index:200;
+}
+
+#nav li ul a {
+	width: 120px;
+	height: 20px;
+	vertical-align: middle;
+	color: #000;
+	background-color: #9F9F9F;
+	/*background-image: url(utilitiesBg.jpg);
+	background-repeat: repeat-y;*/
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	text-align:left;
+	padding-top:5px;
+	padding-left:10px;
+	z-index:100;
+}
+.clear {clear:both;}
+.top-header_rt_s{float:right;height: 34px;margin: 33px 20px 0 0;width: 240px;}
+/* Search styling */
+.search-fieldset{border:none;}
+#search-box{padding-bottom:6px; float:right; height:23px;}
+.search-box_lft{float:left; width:4px;height:29px;background-image:url(images/search_lft.gif);}
+.search-box_mid{float:left;border-top:1px solid #ccc;border-bottom:1px solid #ccc; width:200px;height:27px;}
+.search-box_rt{float:left; width:3px;height:29px;background-image:url(images/search_rt.gif);}
+#s{
+background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    color: #C8C9BE;
+    font: 11px Arial,Helvetica,sans-serif;
+    height: 11px;
+    margin: 2px 0;
+    outline: medium none;
+    padding: 7px 30px 3px 3px;
+    width: 163px;
+}
+#s:focus{
+border:1px solid #adacac;
+color:#adacac;
+}
+#search .go{
+background: url("images/search-icon.gif") repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer;
+    height: 17px;
+    left: 88px;
+    position: relative;
+    top: -20px;
+    width: 18px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#search .go {
+position:absolute;
+margin:-19px 0 0 198px;
+background: url(images/search-icon.gif);
+height: 17px;
+width: 18px;
+cursor:pointer;
+border: none; 
+}
+#bottom-header{width:920px; float:left;}
+.bottom-header-bg{background-color: #CCCCCC;
+    background-repeat: no-repeat;
+    float: left;
+    height: 27px;
+    margin-bottom: 10px;
+    width: 960px;}
+    
+
+
+.bottom-header-bg2{width:960px;background-color:#000;float:left;height:309px;margin-bottom:10px;position: relative;top: -23px;}
+
+#bottom-header{width:920px; float:left;}
+.bottom-header-bg{background-color: #CCCCCC;
+    background-repeat: no-repeat;
+    float: left;
+    height: 27px;
+    margin-bottom: 10px;
+    width: 960px;}
+.bottom-header-bg2{width:960px;background-color:#000;float:left;height:309px;margin-bottom:10px;position: relative;top: -23px;}
+
+/* WIKI PAGE FOOTER */
+
+
+
+
+
+
+

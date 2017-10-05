@@ -1,0 +1,17 @@
+.headbox_lft{
+    float: left;
+    position: relative;
+	height: 150px;
+    z-index: 1;
+	top: 8px;
+	width: 610px!important;
+	background-image:url("../../assets/img/logoIE.png")!important;
+}
+.navbar{
+	background: none repeat scroll 0 0 #2E3641;
+    height: 45px;
+    margin-top: 158px;
+    position: absolute;
+	border-bottom: 1px solid #666;
+	width:610px!important;
+}

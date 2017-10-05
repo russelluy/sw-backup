@@ -1,0 +1,14 @@
+.footer2 #nav li a{
+   background: url(images/foot_sprite.gif) no-repeat top left;cursor: pointer;
+   display: block;
+}
+
+#nav li a.sprite-foot_logo1{ background-position: 0 0; width: 102px; height: 29px; } 
+#nav li a.sprite-foot_logo2{ background-position: -103px 0; width: 51px; height: 29px; } 
+#nav li a.sprite-foot_logo3{ background-position: -155px 0; width: 90px; height: 29px; } 
+#nav li a.sprite-foot_logo4{ background-position: -246px 0; width: 74px; height: 29px; } 
+#nav li a.sprite-foot_logo5{ background-position: -321px 0; width: 75px; height: 29px; } 
+#nav li a.sprite-foot_logo6{ background-position: -397px 0; width: 115px; height: 29px; } 
+#nav li a.sprite-foot_logo7{ background-position: -513px 0; width: 75px; height: 29px; } 
+#nav li a.sprite-foot_logo8{ background-position: -589px 0; width: 131px; height: 29px; } 
+

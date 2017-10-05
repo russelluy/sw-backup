@@ -1,0 +1,7 @@
+<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/" />
+<div>
+<input type="text" class="searchfield" value="<?php the_search_query(); ?>" name="s" id="s" />
+<input type="image" class="glass" id="searchsubmit" value="" />
+	
+</div>
+</form>

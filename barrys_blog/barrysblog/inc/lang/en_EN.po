@@ -1,0 +1,715 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-06-21 13:53-0000\n"
+"PO-Revision-Date: 2013-06-21 14:03-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:31
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: comments.php:32
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: functions.php:95 inc/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: functions.php:96 inc/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: functions.php:97 inc/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: functions.php:98
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#: functions.php:109 inc/class-tgm-plugin-activation.php:178
+#: inc/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: functions.php:110 inc/class-tgm-plugin-activation.php:179
+#: inc/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: functions.php:111
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "All plugins installed and activated successfully. %s"
+
+#: functions.php:258
+msgid "Previous Page"
+msgstr "Previous Page"
+
+#: functions.php:272
+msgid "Next Page"
+msgstr "Next Page"
+
+#: functions.php:327
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:327 functions.php:353
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: functions.php:337
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:340
+msgid "Author"
+msgstr "Author"
+
+#: functions.php:344
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: header.php:29
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: index.php:42
+msgid "Post not found"
+msgstr "Post not found"
+
+#: options.php:32
+msgid "Image"
+msgstr "Image"
+
+#: options.php:33
+msgid "Pattern"
+msgstr "Pattern"
+
+#: options.php:34
+msgid "Solid Color"
+msgstr "Solid Color"
+
+#: options.php:45 inc/theme-options/options-framework.php:173
+#: inc/theme-options/options-framework.php:388
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: options.php:49
+msgid "Background"
+msgstr "Background"
+
+#: options.php:50
+msgid "What kind of background do you want?"
+msgstr "What kind of background do you want?"
+
+#: options.php:57
+msgid "Background Image"
+msgstr "Background Image"
+
+#: options.php:58
+msgid "Upload your background image here."
+msgstr "Upload your background image here."
+
+#: options.php:65
+msgid "Show stripe overlay"
+msgstr "Show stripe overlay"
+
+#: options.php:66
+msgid ""
+"Uncheck this to remove the stripe overlay that covers the background image"
+msgstr ""
+"Uncheck this to remove the stripe overlay that covers the background image"
+
+#: options.php:96
+msgid "Upload Pattern"
+msgstr "Upload Pattern"
+
+#: options.php:97
+msgid ""
+"Upload a new pattern here. If this feature is used it will overwrite the "
+"selection above."
+msgstr ""
+"Upload a new pattern here. If this feature is used it will overwrite the "
+"selection above."
+
+#: options.php:103
+msgid "Background Color"
+msgstr "Background Color"
+
+#: options.php:104
+msgid "Select the background color"
+msgstr "Select the background color"
+
+#: options.php:111
+msgid "Logo"
+msgstr "Logo"
+
+#: options.php:112
+msgid ""
+"Upload your logo here. Remove the image to show the name of the website in "
+"text instead."
+msgstr ""
+"Upload your logo here. Remove the image to show the name of the website in "
+"text instead."
+
+#: options.php:117
+msgid "Facebook App Id"
+msgstr "Facebook App Id"
+
+#: options.php:118
+msgid ""
+"Insert you Facebook app id here. If you don't have one for your webpage you "
+"can create it <a target=\"_blank\" href=\"https://developers.facebook.com/"
+"apps\">here</a>"
+msgstr ""
+"Insert you Facebook app id here. If you don't have one for your webpage you "
+"can create it <a target=\"_blank\" href=\"https://developers.facebook.com/"
+"apps\">here</a>"
+
+#: options.php:123
+msgid "Enable Facebook comments for posts"
+msgstr "Enable Facebook comments for posts"
+
+#: options.php:124
+msgid ""
+"Check this to use Facebook comments instead of regular wordpress comments "
+"for posts. Requires a Facebook app id in the field above."
+msgstr ""
+"Check this to use Facebook comments instead of regular wordpress comments "
+"for posts. Requires a Facebook app id in the field above."
+
+#: options.php:130
+msgid "Show search in header"
+msgstr "Show search in header"
+
+#: options.php:131
+msgid "Uncheck this to remove the search input from the header"
+msgstr "Uncheck this to remove the search input from the header"
+
+#: options.php:137
+msgid "Disable Sticky Header"
+msgstr "Disable Sticky Header"
+
+#: options.php:138
+msgid ""
+"Check this to disable the sticky header feature. (The header won't stay "
+"fixed at the top of the window when you scroll down)"
+msgstr ""
+"Check this to disable the sticky header feature. (The header won't stay "
+"fixed at the top of the window when you scroll down)"
+
+#: options.php:144
+msgid "Disable Responsive CSS"
+msgstr "Disable Responsive CSS"
+
+#: options.php:145
+msgid ""
+"Check this to disable responsive css. Responsive css enable the webpage to "
+"adapt to every screen size allowing mobile users to browse the website more "
+"easily."
+msgstr ""
+"Check this to disable responsive css. Responsive css enable the webpage to "
+"adapt to every screen size allowing mobile users to browse the website more "
+"easily."
+
+#: options.php:151
+msgid "Disable share buttons in the post footer"
+msgstr "Disable share buttons in the post footer"
+
+#: options.php:152
+msgid ""
+"Check this to remove \"Share story\" and all the share buttons in the posts "
+"footer."
+msgstr ""
+"Check this to remove \"Share story\" and all the share buttons in the posts "
+"footer."
+
+#: options.php:170
+msgid "Footer text"
+msgstr "Footer text"
+
+#: options.php:171
+msgid "{year} will be replaced with the current year"
+msgstr "{year} will be replaced with the current year"
+
+#: options.php:177
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: options.php:178
+msgid ""
+"Add your Google Analytics tracking code here. Google Analytics is a free web "
+"analytics service more info here: <a href=\"http://www.google.com/analytics/"
+"\">Google Analytics</a>"
+msgstr ""
+"Add your Google Analytics tracking code here. Google Analytics is a free web "
+"analytics service more info here: <a href=\"http://www.google.com/analytics/"
+"\">Google Analytics</a>"
+
+#: options.php:186
+msgid "Colors & Fonts"
+msgstr "Colors & Fonts"
+
+#: options.php:191
+msgid "Heading font"
+msgstr "Heading font"
+
+#: options.php:192
+msgid "Select a font type for all heading"
+msgstr "Select a font type for all heading"
+
+#: options.php:198
+msgid "Main font"
+msgstr "Main font"
+
+#: options.php:199
+msgid "Select a font type for normal text"
+msgstr "Select a font type for normal text"
+
+#: options.php:205
+msgid "Top Header Color"
+msgstr "Top Header Color"
+
+#: options.php:206
+msgid "Select the color for the top header that includes the menu and logo"
+msgstr "Select the color for the top header that includes the menu and logo"
+
+#: options.php:212
+msgid "Post Header Color"
+msgstr "Post Header Color"
+
+#: options.php:213
+msgid "Select the color for the top header of each post"
+msgstr "Select the color for the top header of each post"
+
+#: options.php:219
+msgid "Widget Header Color"
+msgstr "Widget Header Color"
+
+#: options.php:220
+msgid "Select the default color for the top header of each widget"
+msgstr "Select the default color for the top header of each widget"
+
+#: options.php:226
+msgid "Footer Color"
+msgstr "Footer Color"
+
+#: options.php:227
+msgid "Select the default color for the footer"
+msgstr "Select the default color for the footer"
+
+#: page-left-sidebar.php:32 page-single-column.php:28 page.php:40
+#: single.php:39
+msgid "Page not found"
+msgstr "Page not found"
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr "Archives"
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr "Meta"
+
+#: single.php:23
+msgid "Older"
+msgstr "Older"
+
+#: single.php:24
+msgid "Newer"
+msgstr "Newer"
+
+#: inc/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Something went wrong."
+
+#: inc/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#: inc/class-tgm-plugin-activation.php:517
+#: inc/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: inc/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "The following plugin was activated successfully: %s."
+
+#: inc/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: inc/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr "External Link"
+
+#: inc/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr "Private Repository"
+
+#: inc/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr "Required"
+
+#: inc/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr "Recommended"
+
+#: inc/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: inc/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: inc/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+
+#: inc/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr "Source"
+
+#: inc/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr "Type"
+
+#: inc/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr "Status"
+
+#: inc/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr "Install"
+
+#: inc/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr "Activate"
+
+#: inc/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr "Install package not available."
+
+#: inc/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr "Unpacking the package&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr "Installing the plugin&#8230;"
+
+#: inc/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr "Plugin install failed."
+
+#: inc/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr "Plugin installed successfully."
+
+#: inc/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: inc/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+
+#: inc/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: inc/class-tgm-plugin-activation.php:1956
+#: inc/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Show Details"
+
+#: inc/class-tgm-plugin-activation.php:1956
+#: inc/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#: inc/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#: inc/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+
+#: inc/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#: inc/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#: inc/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: inc/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: inc/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: inc/meta-bottom.php:16
+msgid "Share story"
+msgstr "Share story"
+
+#: inc/meta-top.php:9
+msgid "View all posts in"
+msgstr "View all posts in"
+
+#: inc/mailchimp/subscribe.php:25
+msgid "No email address provided"
+msgstr "No email address provided"
+
+#: inc/mailchimp/subscribe.php:29
+msgid "Email address is invalid"
+msgstr "Email address is invalid"
+
+#: inc/post-format/content-audio.php:19 inc/post-format/content-gallery.php:32
+#: inc/post-format/content-link.php:16 inc/post-format/content-video.php:32
+#: inc/post-format/content.php:27 inc/post-format/single-audio.php:19
+#: inc/post-format/single-gallery.php:29 inc/post-format/single-video.php:18
+#: inc/post-format/single.php:28
+msgid "Pages:"
+msgstr "Pages:"
+
+#: inc/post-format/content-gallery.php:30 inc/post-format/content-link.php:15
+#: inc/post-format/content-video.php:31 inc/post-format/content.php:26
+#: inc/post-format/single.php:26
+msgid "Continue reading..."
+msgstr "Continue reading..."
+
+#: inc/theme-options/options-framework.php:204
+msgid "Clear"
+msgstr "Clear"
+
+#: inc/theme-options/options-framework.php:205
+msgid "Default"
+msgstr "Default"
+
+#: inc/theme-options/options-framework.php:206
+msgid "Select Color"
+msgstr "Select Color"
+
+#: inc/theme-options/options-framework.php:252
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Click OK to reset. Any theme settings will be lost!"
+
+#: inc/theme-options/options-framework.php:284
+msgid "Default options restored."
+msgstr "Default options restored."
+
+#: inc/theme-options/options-framework.php:338
+msgid "Options saved."
+msgstr "Options saved."
+
+#: inc/theme-options/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr "No file chosen"
+
+#: inc/theme-options/options-media-uploader.php:54
+#: inc/theme-options/options-media-uploader.php:111
+msgid "Upload"
+msgstr "Upload"
+
+#: inc/theme-options/options-media-uploader.php:56
+#: inc/theme-options/options-media-uploader.php:112
+msgid "Remove"
+msgstr "Remove"
+
+#: inc/theme-options/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Upgrade your version of WordPress for full media support."
+
+#: inc/theme-options/options-media-uploader.php:83
+msgid "View File"
+msgstr "View File"
+
+#: inc/theme-options/options-sanitize.php:232
+msgid "No Repeat"
+msgstr "No Repeat"
+
+#: inc/theme-options/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr "Repeat Horizontally"
+
+#: inc/theme-options/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr "Repeat Vertically"
+
+#: inc/theme-options/options-sanitize.php:235
+msgid "Repeat All"
+msgstr "Repeat All"
+
+#: inc/theme-options/options-sanitize.php:248
+msgid "Top Left"
+msgstr "Top Left"
+
+#: inc/theme-options/options-sanitize.php:249
+msgid "Top Center"
+msgstr "Top Center"
+
+#: inc/theme-options/options-sanitize.php:250
+msgid "Top Right"
+msgstr "Top Right"
+
+#: inc/theme-options/options-sanitize.php:251
+msgid "Middle Left"
+msgstr "Middle Left"
+
+#: inc/theme-options/options-sanitize.php:252
+msgid "Middle Center"
+msgstr "Middle Center"
+
+#: inc/theme-options/options-sanitize.php:253
+msgid "Middle Right"
+msgstr "Middle Right"
+
+#: inc/theme-options/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr "Bottom Left"
+
+#: inc/theme-options/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr "Bottom Center"
+
+#: inc/theme-options/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr "Bottom Right"
+
+#: inc/theme-options/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr "Scroll Normally"
+
+#: inc/theme-options/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr "Fixed in Place"
+
+#: inc/theme-options/options-sanitize.php:344
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/theme-options/options-sanitize.php:345
+msgid "Italic"
+msgstr "Italic"
+
+#: inc/theme-options/options-sanitize.php:346
+msgid "Bold"
+msgstr "Bold"
+
+#: inc/theme-options/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr "Bold Italic"
+
+#: inc/widgets/bl_instagram.php:123
+msgid "Followers"
+msgstr "Followers"
+
+#: inc/widgets/bl_instagram.php:127
+msgid "Following"
+msgstr "Following"
+
+#: inc/widgets/bl_instagram.php:131
+msgid "Images"
+msgstr "Images"
+
+#: inc/widgets/bl_newsletter.php:118
+msgid "Email address"
+msgstr "Email address"
+
+#: inc/widgets/bl_newsletter.php:119
+msgid "Subscribe!"
+msgstr "Subscribe!"
+
+#: inc/widgets/bl_newsletter.php:123
+msgid "Thank you for subscribing!"
+msgstr "Thank you for subscribing!"
+
+#: inc/widgets/bl_tabs.php:78
+msgid "Posts"
+msgstr "Posts"
+
+#: inc/widgets/bl_tabs.php:79
+msgid "Comments"
+msgstr "Comments"
+
+#: inc/widgets/bl_tabs.php:80
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/widgets/widgets.php:19
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+#: inc/widgets/widgets.php:21
+msgid "These are widgets for the Footer."
+msgstr "These are widgets for the Footer."

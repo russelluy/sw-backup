@@ -1,0 +1,362 @@
+Templatic theme - Classifieds      !!
+==========================
+24th December 2012
+---------------------------------------------------------------------------------
+Issue of set the post images on front end submit and display in detail page - Solved.
+---------------------------------------------------------------------------------
+library/includes/adsview.php
+library/includes/paynow.php
+
+
+17th December 2012 (v:1.6.6)
+----------------------------------------------
+resolved auto install image issue with wordpress 3.5
+----------------------------------------------------
+auto_install.php
+
+11th December 2012 (v:1.6.5)
+-------------------------------------------------------------------------------------
+twitter widget not working solved with time of tweet posted and link to that tweet
+-------------------------------------------------------------------------------------
+library/functions/widget_functions.php
+---------------------------------------------------------------------
+Removed thimthumb(thumb.php) and replaced it with wordpress resizing
+----------------------------------------------------------------------
+library/functions/widgets_functions.php
+archive.php
+library/includes/index2.php
+functions.php
+auto_install.php
+library/functions/custom_functions.php
+library/includes/ads_detail.php
+library/includes/adsview.php
+library/includes/delete_ads.php
+library/includes/index3.php
+library/includes/post_listing.php
+library/includes/tpl_createclassified.php
+search.php
+thumb.php - removed
+library/includes/phpthumb - removed
+tpl_blog.php
+
+
+27th Nov - 2012 (v:1.6.4)
+---------------------
+Security fixes - Done.
+---------------------
+library/functions/admin_settings.php
+library/includes/admin_bulk_upload.php
+functions.php
+library/includes/adsview.php
+
+
+
+26th Nov - 2012 (v:1.6.3)
+-------------------------------------------
+Issue of twitter widget not working - Solved.
+-------------------------------------------
+library/functions/widgets_functions.php
+
+------------------------------------------------
+change DOMAIN to templatic twitter.php - Solved.
+------------------------------------------------
+functions.php
+
+---------------------------------------------------------------------------------------------------------------------
+check condition for allowed only images/picture file extension file on file upload, global assign file extension array - Solved.
+---------------------------------------------------------------------------------------------------------------------
+functions.php
+library/includes/adsview.php
+
+
+
+
+28th Sept. 2012 (v:1.6.2)
+----------------------------------------------
+tiny mce issue in IE 9 - Solved.
+----------------------------------------------
+library/includes/tpl_createclassified.php
+
+--------------------------------------------------------------------------------------------------------------------------------
+link and form show both even though registration is disabled from the back end - Solved.
+--------------------------------------------------------------------------------------------------------------------------------
+header.php
+library/includes/registration.php
+
+--------------------------------------------------------------------------------
+Issue of featured category removed when edit - Solved.
+--------------------------------------------------------------------------------
+library/functions/general_functions.php
+library/includes/adsview.php
+library/includes/paynow.php
+
+--------------------------------------
+Pagination issue - Solved.
+--------------------------------------
+library/functions/custom_functions.php
+library/includes/catlisting.php
+
+-----------------------------------------------------------------------------------------------------------------
+description field not saving data in IE - so tiny_mce version changed - Solved.
+-----------------------------------------------------------------------------------------------------------------
+The whole folder named "tiny_mce" placed into --> Classifieds/ library/ js/
+
+
+
+7th April, 2012 (v:1.6.1)
+----------------------------------------------
+Google Map Version3 upgraded
+----------------------------------------------
+functions.php
+librrary/includes/ads_detail.php
+library/map/map_functions.php
+library/map/preview_map.php
+
+
+7th march, 2011 (v:1.6.1)
+----------------------------------------------
+Updated breadcrumb files
+----------------------------------------------
+Added - library/functions/yst_plugin_tools.php
+library/functions/yoast-breadcrumbs.php
+
+29th FEb, 2012
+-------------------------------------------------------------------------------------
+add classified page - validation of description characters were not working - solved
+-------------------------------------------------------------------------------------
+classifieds/library/js/adv_validation.js
+
+1st Feb - 2012
+---------------------------------------------------------------------------------
+If Static Home page is set then header was not working - Solved
+---------------------------------------------------------------------------------
+page.php
+
+
+21st June 2011
+----------------------------------------------------
+<ol> tag was not working properly in pages -- SOLVED
+----------------------------------------------------
+style.css
+
+16th June 2011
+---------------------------------------------------------------------------------
+when we add plugin for contact form then field border is not displayed -- SOLVED
+--------------------------------------------------------------------------------
+style.css
+
+
+7th April - 2011
+--------------------------------------
+image upload problem
+--------------------------------------
+functions.php
+
+
+21th March - 2011
+--------------------------------------
+wp-admin navigaton menu problem - front end - solved
+--------------------------------------
+footer.php
+footer_index.php
+
+
+
+16th Feb - 2011
+--------------------------------------
+Google map API problem - Post a Classified page
+--------------------------------------
+library/map/map_functions.php
+
+
+
+29th spe - 2010(index page sub category display problem)
+--------------------------------------
+library/includes/index1.php
+library/includes/index2.php
+library/includes/index3.php
+
+
+9th sep - 2010 (google map longitute and latitue as per location)
+-------------------------------------
+header.php
+fuctions.php
+library/map  -- whole folder
+library/includes/tpl_createclassified.php
+library/includes/adsview.php
+library/includes/paynow.php
+
+
+
+7th aug - 2010 (wp 3 folder path setting changes)
+----------------------------------------------
+library/includes/email_friend_frm.php
+library/includes/cancel.php
+library/includes/admin_notification_edit.php
+library/includes/admin_bulk_upload.php
+
+
+23th - June, 2010 (email notification problem solved)
+---------------------------------------------
+library/includes/admin_notification.php
+library/includes/admin_notification_edit.php
+library/includes/ipn.php
+
+9th - June, 2010 (email format to UTF-8 and wp3 multisite image problem solved)
+--------------------------------------------
+library/includes/adsview.php
+library/functions/widget_functions.php
+library/functions/general_functions.php
+
+
+6th - June, 2010 (ads pricing problem for bigger amount,image upload on preview problem)
+---------------------------------------------
+library/includes/adsview.php
+
+
+22th - May, 2010 (wp 3.0 changes - custom menu navigation - { header  widget },  Theme Compatibility   )
+---------------------------------------------
+header.php
+style.css
+skins - folder all css
+
+library/functions/widget_functions.php
+library/functions/admin_style.css
+library/functions/admin_functions.php
+
+
+10th - may, 2010 (bulk upload)
+---------------------------------------------
+library/includes/admin_bulk_upload.php
+library/includes/paynow.php
+library/includes/adsview.php
+
+
+20th - april, 2010 (wp 3.0 changes)
+---------------------------------------------
+library/functions/admin_functions.php
+
+
+
+17th-april, 2010 (widget content not stable/stored at wp-admin->widgets)
+-------------------------------------------------
+///if you have any problem with widget, not able to store/add new one, please copy below all code and paste in index.php at very first line and run your site index page, on the next moment you must remove the added code from index.php otherwise your data will lost every time.  NoTE :- this code will remove your some widget data so please take your widget data backup any where so next time it will userful for you. thanks
+//-------------------------------------------------------------------------
+update_option('widget_widget_posts1',array());
+update_option('widget_links',array());
+update_option('widget_categories',array());
+update_option('widget_widget_Location',array());
+update_option('widget_widget_popularposts',array());
+update_option('widget_widget_subscribewidget',array());
+update_option('widget_widget_home_advt',array());
+
+
+Change log on 1st-april, 2010
+---------------------------------------------------
+post_sample_csv.csv
+
+
+Change log on 1st-march, 2010
+---------------------------------------------------
+library/includes/
+registration.php
+dashboard.php
+
+
+Change log on 24th-march, 2010
+---------------------------------------------------
+registration.php
+tpl_createclassified.php
+adsview.php
+paynow.php
+
+Change log on 5th-march, 2010
+---------------------------------------------------
+auto_install.php
+
+Change log on 27th-feb, 2010
+---------------------------------------------------
+library/includes
+dashboard.php
+send_inquiry_frm.php
+
+Change log on 8th-feb, 2010
+---------------------------------------------------
+paynow.php
+
+Change log on 8th-feb, 2010
+---------------------------------------------------
+functions.php
+language.php
+style.css
+archive.php
+auto_install.php
+footer_index.php
+
+library/functions
+general_functions.php
+admin_options.php
+admin_functions.php
+widgets_functions.php
+library/includes
+ads_detail.php
+admin_settings.php
+paynow.php
+admin_bulk_upload.php
+tpl_createclassified.php
+email_friend_frm.php
+index1.php
+index2.php
+index3.php
+registration.php
+
+library/notification/emails
+registration.txt
+
+====================================
+Change log  on 6th feb 2010:
+--------------------------------------------------
+index.php
+comments.php
+header.php
+archive.php
+language.php
+auto_install.php (new one)
+header_index.php
+search.php
+tpl_blog.php
+functions.php
+
+remove themes/Classifieds/includes folder
+
+library/includes/
+paynow.php
+catlisting.php
+delete_ads.php (new one)
+ads_detail.php
+dashboard.php
+tpl_createclassified.php
+blog_listing.php
+post_listing.php
+adsview.php
+index1.php
+index2.php
+index3.php
+email_friend_frm.php
+registration.php
+
+
+library/functions
+general_function.php
+comments_functions.php
+widgets_functions.php
+
+
+=============================================================
+Change log  on17th Nov 2011:
+--------------------------------------------------
+
+Search.php
+Solved "Search on home page not working"
+
+=============================================================

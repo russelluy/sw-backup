@@ -1,0 +1,70 @@
+﻿/* Main Menu */
+
+#menu-main {
+	background: #639343 url(../images/back-menu-green.png) repeat-x top left;
+	border-top-color: #5f8a42;
+}
+
+#menu-main .current-menu-item a,
+#menu-main a:hover, 
+#menu-main a:active {
+	color: #ccdfbe;
+} 
+
+#menu-main .current-menu-item li a {
+	color: #aaa;
+}
+
+#menu-main li {
+	border-bottom-color: #78ae54;
+}
+
+#menu-main a {
+	color: #fff;
+}
+
+#menu-main .dropdown li:hover ul,
+#menu-main .dropdown .sfHover ul {
+	border-top-color: #4a6b34;
+}
+
+#menu-main .dropdown li:hover li ul,
+#menu-main .dropdown .sfHover li ul {
+	border-top-color: #4a6b34;
+}
+
+div.navigation .current { background-color: #5f8a42; }
+div.navigation a:hover {
+	background-color: #5f8a42; 
+	color: #fff;
+}
+
+/* Footer Contact Info */
+
+#content div.wrapper {
+	border-bottom-color: #5f8a42;
+}
+
+.wrapper-footer-contacts {
+	background: #639343 url(../images/back-menu-green.png) repeat-x top left;
+}
+
+.footer-additional a {
+	color: #ccdfbe;
+}
+
+.footer-additional a:hover {
+	color: #fff;
+}
+
+#menu-main .toggle_mobile_menu { 
+	background: transparent url(../images/icon-lines-green.png) no-repeat top left; 
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+
+	#menu-main .current-menu-item li a {
+		color: #fff;
+	}
+}

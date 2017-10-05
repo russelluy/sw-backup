@@ -1,0 +1,9 @@
+.headbox_lft{
+    float: left;
+    position: relative;
+	height: 150px;
+    z-index: 1;
+	width: 610px!important;
+	margin-bottom: 20px;
+	background-image:url("../../assets/img/swh_bannerIE.png")!important;
+}

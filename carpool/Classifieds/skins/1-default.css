@@ -1,0 +1,346 @@
+* {border:none; }
+body {background:#fff ; color:#666;}
+
+/* Links -----------------------------------------------------------------------*/
+a:hover {color: #333; }
+.imgleft {display:none;}
+.imgleft2 {border:1px solid #9fb2c4; }
+.imgright {border:1px solid #9fb2c4; }
+.imgleft_n {float:left; margin:0 40px 12px 0; }
+ 
+.gravatar {border:2px solid #999; background:url(../images/gravtar.png) no-repeat; }
+.imgnot_available {border:1px solid #e0e0e0; color:#c0bfbf; }
+.imgnot_available2 {border:1px solid #e0e0e0; color:#c0bfbf; }
+
+/* STRUCTURE ----------------------------------*/
+#topnav {background:url(../images/menubg.png)}
+#bottom {background:#fff; }
+#footer {background:#f6f3ea; border-top:1px solid #BBB6A1; }
+
+/*  Headings ----------------------------------*/
+h1 {color: #000; }
+h1 a, h3 a {border-bottom:none; }
+h2 {color: #546575; }
+h2 a {color: #330033; }
+h3 {color:#666; }
+h4 {color:#444; }
+h5 {color:#444; }
+h6 {color: #000; border-bottom:4px solid #e3e3e3; }
+
+/* top nav  ----------------------------------*/
+#topnav-in p {color:#fff; margin-top: 3px;}
+#topnav-in p a {color:#fff;}
+.newlogin {color:#fff; float: left;left: 720px;position: relative;top: -1px;}
+.newlogin2 {color:#fff; float: left;left: 850px;position: relative;top: -1px;#top:-15px;}
+.newlogin3 {color:#fff; float: left;left: -50px;position: relative;}
+
+#topnav-in p span a {color:#fff; }
+#topnav-in p span a:hover {color:#fff; }
+
+#topnav-in p a:hover {color:#fff; }
+
+#topnav-in li {color:#fff; }
+#topnav-in li a {color:#fff;  }
+#topnav-in li.current-menu-item a, #topnav-in li a:hover, #topnav-in li.current_page_item a {  color:#fff;  }
+
+
+#topnav-in li a:hover {color:#fff; text-decoration: underline; }
+/* Header  ----------------------------------*/ 
+#header-in .logo-text {color:#add352; }
+#header-in .logo-text a {color:#dc0709; }
+#header-in .logo-text a:hover {color:#333; }
+
+#header-in .logoin-text {color:#000; }
+#header-in .logoin-text a {color:#dc0709; }
+#header-in .logoin-text a:hover {color:#333; }
+#header-in .description {color:#666; }
+#header-in .description-in {color:#666; }
+ 
+/* TOP SEARCH FORM -----------------------------------------------------------------------*/
+#search_index {background:url(1-default/searchbg.png) no-repeat; }
+#search_index .s {border:none; background:none; color: #666; }
+#search_index .sgo {background:url(1-default/b_go.png) no-repeat; }
+#search_index .sgo:hover {background-position:0 -39px; }
+
+/* TOP SEARCH FORM  inner page  -----------------------------------------------------------------------*/
+#search {background:transparent url(1-default/searchbg2.png) no-repeat; }
+#search .s {border:none; background:none; color: #666; }
+#search .sgo {background:url(1-default/b_go2.png) no-repeat; }
+#search .sgo:hover {background-position:0 -31px; }
+.search404 {background:url(1-default/searchbg2.png) no-repeat; }
+.search404 .s {border:none; background:none; color: #666; }
+.search404 .sgo {background:url(1-default/b_go2.png) no-repeat; }
+.search404 .sgo:hover {background-position:0 -31px; }
+
+/* breadcrumb start -----------------------------------------------------------------------*/ 
+.breadcrumb2 {border-bottom:2px dotted #CCCCCC; border-top:2px dotted #CCCCCC; display: none;}
+.breadcrumb2 a {color:#333 !important; }
+.breadcrumb2 a:hover {color:#dc0709 !important; }
+
+/* TOP category -----------------------------------------------------------------------*/
+#category h3 {border-top:none; background:#fff; color:#000; }
+#category .ctitle {background:url(1-default/titleline.png) repeat-x center; }
+#category li {background:url(1-default/bullet3.png) no-repeat 0 12px; color:#333; }
+#category li a {color:#333; }
+#category li a:hover {color:#dc0709; }
+
+/* Content start -----------------------------------------------------------------------*/
+#content p.time, #banner .classified p.time {color:#777; }
+.i_clock {background:url(1-default/i_clock.png) no-repeat 0 5px; }
+.i_comments {background:url(1-default/i_comments.png) no-repeat 0 5px; }
+
+/* Content  ----------------------------------*/
+.photo img {border:1px solid #ccc; }
+#content .pdescriptions {border-top:3px solid #e0e0e0; }
+.pcontactinfo {background:#eee; border:1px solid #ccc;}
+#content .pdescriptions h3, .pcontactinfo h3 {color:#2c2a2a; border-bottom:1px solid #e0e0e0; }
+.pcontactinfo h3 {border-bottom:1px dotted #000; }
+
+.pcontactinfo h4 a {border-bottom:none; }
+
+.pcontactinfo a {color:#333; border-bottom:1px dotted #444; }
+.pcontactinfo a:hover {color:#DC0709; border-bottom:none; }
+
+
+#content .pcontactinfo p,  .pcontactinfo p {color:#444; border-bottom:1px solid #e0e0e0; }
+
+.i_mail2 {background:url(../images/mail_back.gif) no-repeat left 9px; }
+.i_phone {background:url(../images/phone.gif) no-repeat left 3px; }
+.i_map {background:url(../images/maps.png) no-repeat left 8px; }
+.i_website {background:url(../images/icon_world.gif) no-repeat left 7px; }
+.i_tags {background:url(../images/tag.png) no-repeat left 3px; }
+
+.i_mail3 {background:url(../images/email.png) no-repeat left 2px; }
+.i_print {background:url(../images/print.png) no-repeat left 2px; }
+
+.post_preview {background:#fff; border-top:0; border-bottom:0; }
+.post_preview h3 {color:#000; }
+.post_preview_in {background:#eee; }
+
+#content .post_preview .b_continue {background:#697f22; color:#fff; }
+#content .post_preview .b_continue:hover {background:#495a15; color:#fff; }
+
+#content .post_preview .back {color:#900; border-bottom:1px dotted #ccc; background:none; }
+#content .post_preview .back:hover {color:#000; } 
+
+#content .payment_section .table td {color:#666; border-bottom:1px solid #ccc; }
+#content .payment_section .table td.title {color:#000; border-top:2px solid #ccc; border-bottom:1px solid #ccc; }
+#content .payment_section .table td.total {color:#000; border-bottom:2px solid #ccc; border-top:1px solid #ccc; background:#eee; }
+
+#content .bnone {border:none !important; }
+#content .listings  {border-bottom:1px solid #e0e0e0; }
+#sidebar .listings {border-bottom:1px solid #e0e0e0; }
+#content .listings h1, #sidebar .listings h1 {color: #000; }
+#content .listings h2 {color:#555; }
+#content .listings h2 a {color: #555; }
+#content .listings h2 a:hover {color: #dc0709; }
+#content h4.dash_title  {border-bottom:1px dotted #ccc; }
+#content h4.dash_title span {color:#333; }
+#content h4.dash_title span a {border-bottom:1px dotted #ccc; color:#444; }
+#content h4.dash_title span a:hover {color:#F00; }
+
+#content .listings p {color:#333; width: 100%;}
+.active {color:#090; }
+.expired {color:#F00; }
+
+#content .listings h2 a.edit {color:#666; border-bottom:1px dotted #666; }
+#content .listings h2 a:hover.edit  {color:#000; }
+#sidebar .listings h3 {border:none; }
+
+.red {color:#dc0709; }
+#content .listings span {color:#777; }
+#content .listings p.time {color:#777; border-bottom: 1px solid #CCCCCC;}
+#content .listings p.time_blog {color:#777; }
+
+
+#content p {color:#666;float: left;
+    margin-bottom: 10px; }
+#content p a, #banner .classified p a {border-bottom:1px dotted #879baf; color:#555; }
+#content p a:hover, #banner .classified p a:hover {border-bottom:none; color: #dc0709; }
+#content a {color:#333; border-bottom:none; }
+#content a:hover {color:#dc0709; }
+#content ol li {background:none; }
+#content blockquote {background:#f7f7f7; background-position:8px 5px; color:#666; border-top:2px dotted #d2d2d2; border-bottom:1px dotted #d2d2d2; }
+#content blockquote p {color:#666; }
+#pagenavi {border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; }
+#content p.i_previous {background:url(1-default/arrow-left.gif) no-repeat 0 3px; }
+#content p.i_next {background:url(1-default/arrow-right.gif) no-repeat right 5px; }
+
+/*post css start ----------------------------------*/
+.category {border-right:1px solid #eee; }
+#content .category a, #content .archives a {color:#666; }
+#content .category a:hover, #content .archives a:hover {color:#333; }
+#content .post_top {background:url(1-default/sepretor_hr.png) repeat-x bottom; }
+#content .post_top a {color:#f60; }
+#content .post_top a:hover {color:#333; border-bottom:none; }
+#content .post_bottom {border-top:1px dotted #e0e0e0; border-bottom:2px dotted #e0e0e0; }
+#content .post_bottom a {color:#000; border-bottom:1px dotted #666; }
+#content .post_bottom a:hover {color:#dc0709; border-bottom:none; }
+
+.more-link {background:url(1-default/b_more_blue.png) no-repeat right top; }
+
+/* 	Previous/Next Page Navigation ----------------------------------*/
+.page-nav a {border-bottom:none; }
+.nav-previous a {background:url(1-default/arrow-left.gif) no-repeat left; }
+.nav-next a {background:url(1-default/arrow-right.gif) no-repeat right; border-bottom:none; }
+ 
+
+/*---------COMMENTS --------- */
+#comments_wrap h3{border-bottom:1px dotted #ccc; }
+#comments_wrap .comment {background:none; }
+#comments_wrap  p.authorcomment a {color:#666; }
+#comments_wrap  p.authorcomment a:hover {color:#000; }
+
+#comments_wrap .comment .meta-left {color:#aaaaaa }
+#comments_wrap .comment .text-right {border:none; background:#fff; }
+#comments_wrap .comment .authcomment{background:#e7e7e7 url(1-default/commentbg_author.png) no-repeat left center; border:none; }
+#comments_wrap .comment .authcomment p {color:#333; margin:0; padding:0; }
+
+span.comm-reply{color:#333; }
+span.comm-reply a {color:#333; }
+span.comm-reply a:hover{color:#000; }
+#respond textarea, .commpadd input{background:none; border:1px solid #c6c6c6; }
+#respond textarea:hover, .commpadd input:hover, .commpadd input:focus, #respond textarea:focus {background:#eee; }
+
+input#submit{color:#fff; background:#000; }
+.avatar {border:2px solid #c6c6c6; }
+
+
+/*Page navigatoin 2 ----------------------------- */
+#content .wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active {color: #333; background-color:#d7d7d7; }
+#content .wp-pagenavi a:hover {color: #fff; background-color: #333; }
+#content .wp-pagenavi span.pages {background-color: #d7d7d7; color:#000; }
+#content .wp-pagenavi .on {color: #fff; background:#dc0709; }
+#content .wp-pagenavi span.extend {color: #333; background-color: #d7d7d7; }
+
+/*widget calendar css =================================================== */
+#calendar_wrap caption {background:#ddd; color:#333; }
+
+.flickr_badge_image img {border:1px solid #ccc; }
+a.twitter {background:url(1-default/twitter2.png) no-repeat left 8px; color:#000; }
+a:hover.twitter {color:#F00; }
+#bottom a.twitter {background:url(1-default/twitter2.png) no-repeat left 8px; }
+
+/* widget search css ===================================================  */	
+#sidebar_l input, #sidebar_r input {color:#666; border:1px solid #ccc; }
+#sidebar h3 {color:#5f8f19; border-bottom:1px solid #e5e5e5;  }
+#sidebar p {color:#666; }
+#sidebar a {color:#777; }
+#sidebar a:hover  {color:#980405; }
+#sidebar ul li ul li a:hover {color:#dc0709; }
+#sidebar ul li ul li ul li a:hover {color:#dc0709; }
+
+/* Home v2  ----------------------------------*/
+#banner .advt_banner_index {background:#ccc url(1-default/adv_banner2.gif) no-repeat; }
+#banner .advt_banner_index_bg2 {background:#ccc url(1-default/adv_banner3.png) no-repeat; }
+
+#banner .classified {background:url(1-default/latestclassicfied.png) no-repeat; }
+#banner .classified2 {background:#fbfafa; border:1px solid #f0f0f0; }
+#banner .advt_banner_index h2, #banner .classified h2 {color:#000; }
+
+#banner .classified h3 {color:#555; }
+#banner .classified h3 a {color:#666; }
+#banner .classified h3 a:hover {color: #000; }
+#banner .listings {border-bottom:1px solid #e0e0e0; }
+#banner .advt_banner_index .bsignup a {background:url(1-default/b_signup.png) no-repeat; }
+#banner .advt_banner_index .bsignup a:hover {background-position:0 -24px; }
+#banner .advt_banner_index p, #banner .classified p {color:#666; }
+
+/* bottom ---------------------------------- */
+#bottom-in .border {border-right:1px solid #d2d2d2; }
+#bottom-in .fsingle h3, #bottom-in .subscribe h3 {color:#000; border-bottom:1px dotted #000; border-top:none; }
+#bottom-in .fsingle p, #bottom-in .advt_banner p, #bottom-in .subscribe p {color:#666;font-size: 12px; }
+#bottom-in .fsingle p a, #bottom-in .advt_banner p a, #bottom-in .subscribe p a {color:#666; border-bottom:1px dotted #666; }
+#bottom-in .subscribe p a {border-bottom:none; color:blue;}
+#bottom-in .fsingle p a:hover, #bottom-in .advt_banner p a:hover, #bottom-in .subscribe a:hover {color:#333; }
+#bottom-in .postlist li {background:url(1-default/bullet1.png) no-repeat 0 10px; color:#666; }
+#bottom-in .postlist li a {color:#666; }
+#bottom-in .postlist li a:hover {color:#333; }
+#bottom-in .advt_banner {background:url(1-default/advertise_banner.png) no-repeat; }
+#bottom-in .bsignup a {background:url(1-default/b_signup.png) no-repeat; }
+#bottom-in .bsignup a:hover {background-position:0 -24px; }
+
+/*subscribe css ------------------------ */ 
+#bottom-in .subscribe_textield {border:1px solid #cbcbcb; background:#fff; color:#333; }
+.i_rss {background:url(../images/i_rss.png) no-repeat left 0px; }
+#bottom-in .subscribe p.i_email {background:url(../images/i_mail.png) no-repeat left 2px; }
+#bottom-in .bsubscribe {background:url(1-default/b_subscribe.png) no-repeat; }
+#bottom-in .bsubscribe:hover {background-position:0 -22px; }
+
+/* footer ---------------------------------- */
+#footer p {color:#645A50; }
+#footer span {color:#a3a2a2; }
+#footer span a {color:#a3a2a2; }
+#footer span a:hover {color:#fff; }
+#footer a {color: #fff; }
+#footer a:hover {color: #ccc; }
+#flinks li {color:#c55e76; }
+#flinks li a {color:#c2c2c2; }
+#flinks li a:hover {color:#fff; }
+.feature_post {background-color:#EBF0E8; }
+
+.edit_profile_form .textfield, .textbox {border:1px solid #ccc; color:#000; }
+.indicates {color:#F00; }
+
+.normal_button, #content .normal_button  {background:#000; border:none; color:#fff; }
+.normal_button:focus, #content .normal_button:focus {background:#e52203; }
+.normal_button:hover, #content .normal_button:hover {background:#e52203; color:#fff; }
+
+.addnew, #content .addnew  {border:none; background:none; color:#000; }
+.addnew:focus, #content .addnew:focus {background:none;color:#F00; }
+.addnew:hover, #content .addnew:hover {background:none; color:#F00; }
+
+.featured_ads_price {border-top:1px dotted #ccc; }
+.extra_price {color:#090; }
+.spacer_border {border-right:1px solid #eee; }
+.post_navigation span {background:#d7d7d7; color:#000; }
+
+.create_post_row .select {border:1px solid #ccc; color:#000; } 
+.create_post_row .textfield {border:1px solid #ccc; color:#000; } 
+.create_post_row .textarea {border:1px solid #ccc; } 
+
+.create_post_row .error {border:2px solid #F00; }
+.message_error { color:#F00;  }
+.message_error2 { color:#F00;  }
+
+#content .form h5  { color:#000; }
+
+.login_form { background:#f4f4f4; border:1px solid #ccc; }
+.form_row .textfield {border:1px solid #ccc; color:#000; } 
+.login_form a {color:#333; border-bottom:1px dotted #444; }
+.login_form a:hover {color:#F00; } 
+
+.lostpassword_form .textfield {border:1px solid #ccc; color:#000; } 
+.registration_col { background:#f4f4f4; border:1px solid #ccc;  }
+
+.reg_row .error {border:2px solid #F00 !important; }
+.reg_row .reg_row_textfield {border:1px solid #ccc; color:#000; }
+.error_msg { background:#FFB7B7; color:#990000; border-top:1px solid #990000; border-bottom:1px solid #990000; }
+ .zoom  a {background:url(1-default/zoom.png) no-repeat; }
+
+/* inquiry form popup -------------------*/
+#info {background:#fff; border:4px solid #c8c8c8; }
+#info a {color:#000; }
+.more:hover {color:#000; }
+.clear {clear:both; }
+.close {color:#000; }
+
+.mm {background:#fff; border:5px solid #ccc; }
+
+#banner .index_left .category_list_index li {color:#333; }
+#banner .index_left .category_list_index li ul li {color:#333;  }
+
+a.b_sendinquiry {background:url(1-default/b_sendinquiry.png) no-repeat left top; border-bottom:none; }
+a:hover.b_sendinquiry {background-position:0 -26px; }
+
+
+/* profile page form ---------------- */
+.post_navigation a {background:#d8d7d7; color:#000; }
+.post_navigation a:hover {background:#d8d7d7; color:#F00; }
+
+.error {border:2px solid #F00 !important; }
+
+#header-in .b_classified {background:url(1-default/b_classified_r.png) no-repeat; }
+#header-in .b_classified a {background:url(1-default/b_classified_l.png) no-repeat; color:#fff; }
+#header-in .b_classified:hover {background:url(1-default/b_classified_r.png) no-repeat 0 -34px !important; }
+#header-in .b_classified a:hover {background-position:0 -34px !important; }

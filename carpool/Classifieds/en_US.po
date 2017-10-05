@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-06-09 11:04+0000\n"
+"Last-Translator: admin <admin@admin.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#: archive.php:83
+#: search.php:73
+msgid "Category"
+msgstr ""
+
+#: 404.php:23
+#: search.php:81
+msgid "Archives"
+msgstr ""
+
+#: comments-old.php:110
+#: comments-old.php:113
+msgid "*"
+msgstr ""
+
+#: comments.php:92
+msgid "Name *"
+msgstr ""
+
+#: comments.php:95
+msgid "Email *"
+msgstr ""
+
+#: comments.php:104
+#: library/includes/admin_coupon.php:133
+msgid "Submit"
+msgstr ""
+
+#: language.php:68
+msgid "Address Latitude"
+msgstr ""
+
+#: language.php:69
+msgid "Address Longitude"
+msgstr ""
+
+#: language.php:70
+msgid "Please enter latitude for google map perfection. eg. : <b>39.955823048131286</b>"
+msgstr ""
+
+#: language.php:71
+msgid "Please enter logngitude for google map perfection. eg. : <b>-75.14408111572266</b>"
+msgstr ""
+
+#: library/functions/admin_dashboard.php:66
+msgid "Latest Ads"
+msgstr ""
+
+#: library/functions/admin_options.php:200
+msgid "Default Image Cutting Edge"
+msgstr ""
+
+#: library/functions/admin_options.php:201
+msgid "Set Default Image Cutting Edge Position."
+msgstr ""
+
+#: library/functions/comments_functions.php:9
+#: library/includes/admin_manage_coupon.php:61
+#: library/includes/admin_manage_coupon.php:80
+msgid "Delete"
+msgstr ""
+
+#: library/functions/comments_functions.php:10
+msgid "Spam"
+msgstr ""
+
+#: library/functions/widgets_functions.php:688
+msgid "Twitter Account ID:"
+msgstr ""
+
+#: library/functions/widgets_functions.php:692
+msgid "Title:"
+msgstr ""
+
+#: library/functions/widgets_functions.php:696
+msgid "Show Twitter Posts:"
+msgstr ""
+
+#: library/functions/yoast-breadcrumbs.php:61
+msgid "Settings"
+msgstr ""
+
+#: library/functions/yoast-breadcrumbs.php:69
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#: library/functions/yoast-posts.php:23
+#@ yoast-posts
+msgid "Yoast - Tweaking Websites"
+msgstr ""
+
+#: library/includes/admin_coupon.php:94
+msgid "Edit Coupon"
+msgstr ""
+
+#: library/includes/admin_coupon.php:97
+#: library/includes/admin_manage_coupon.php:53
+msgid "Add Coupon"
+msgstr ""
+
+#: library/includes/admin_coupon.php:103
+msgid "Coupon code already exists, Please user different one."
+msgstr ""
+
+#: library/includes/admin_coupon.php:108
+#: library/includes/admin_manage_coupon.php:57
+msgid "Coupon Code"
+msgstr ""
+
+#: library/includes/admin_coupon.php:113
+#: library/includes/admin_manage_coupon.php:58
+msgid "Discount Type"
+msgstr ""
+
+#: library/includes/admin_coupon.php:116
+msgid "Percentage"
+msgstr ""
+
+#: library/includes/admin_coupon.php:124
+#: library/includes/adsview.php:296
+msgid "Amount"
+msgstr ""
+
+#: library/includes/admin_coupon.php:135
+msgid "Cancel"
+msgstr ""
+
+#: library/includes/admin_coupon.php:146
+msgid "Percentage should be less than or equal to 100"
+msgstr ""
+
+#: library/includes/admin_manage_coupon.php:42
+msgid "Manage Coupons"
+msgstr ""
+
+#: library/includes/admin_manage_coupon.php:45
+msgid "Coupon updated successfully."
+msgstr ""
+
+#: library/includes/admin_manage_coupon.php:50
+msgid "Coupon deleted successfully."
+msgstr ""
+
+#: library/includes/admin_manage_coupon.php:59
+msgid "Discount Amount"
+msgstr ""
+
+#: library/includes/admin_manage_coupon.php:60
+#: library/includes/admin_manage_coupon.php:79
+msgid "Edit"
+msgstr ""
+
+#: library/includes/admin_notification.php:20
+msgid "Manage Notifications"
+msgstr ""
+
+#: library/includes/admin_notification.php:24
+msgid "updated successfully."
+msgstr ""
+
+#: library/includes/admin_notification.php:116
+#: library/includes/admin_notification.php:146
+msgid "File Name"
+msgstr ""
+
+#: library/includes/admin_notification.php:117
+msgid "Subject"
+msgstr ""
+
+#: library/includes/admin_notification.php:118
+#: library/includes/admin_notification.php:147
+msgid "Description"
+msgstr ""
+
+#: library/includes/admin_notification_edit.php:78
+msgid "Manage Notification"
+msgstr ""
+
+#: library/includes/ads_detail.php:85
+msgid "No Image Available"
+msgstr ""
+
+#: library/includes/adsview.php:294
+msgid "Qty"
+msgstr ""
+
+#: library/includes/adsview.php:295
+msgid "Payment Description"
+msgstr ""
+
+#: library/includes/blog_detail.php:49
+#: library/includes/blog_listing.php:82
+#@ Templatic
+msgid "Tags : "
+msgstr ""
+
+#: library/includes/registration.php:39
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: library/includes/registration.php:44
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: library/includes/registration.php:56
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: library/includes/registration.php:76
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: library/includes/registration.php:77
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: library/includes/registration.php:85
+#, php-format
+msgid "[%s] Your new password"
+msgstr ""
+
+#: library/includes/registration.php:108
+msgid "ERROR: Please enter a username."
+msgstr ""
+
+#: library/includes/registration.php:110
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#: library/includes/registration.php:114
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: library/includes/registration.php:118
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: library/includes/registration.php:120
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: library/includes/registration.php:123
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: library/includes/registration.php:159
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: library/includes/registration.php:264
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: library/includes/registration.php:391
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr ""
+
+#: library/includes/tpl_createclassified.php:158
+msgid "chars"
+msgstr ""
+
+#: library/map/location_add_map.php:9
+msgid "Set Location on Map"
+msgstr ""
+

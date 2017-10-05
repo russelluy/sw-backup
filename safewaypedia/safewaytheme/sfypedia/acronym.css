@@ -1,0 +1,16 @@
+/* 
+    Document   : acronym.css
+    Created on : Dec 13, 2012, 10:00:07 AM
+    Author     : grang01
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.acro_desc
+    {
+        float:right;/*fix for  buggy browsers*/
+        display:table-column;
+        width:450px!important;
+        /*background-color:#ccc;*/
+
+    }

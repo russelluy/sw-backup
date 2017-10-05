@@ -1,0 +1,105 @@
+/* Second Menu */
+
+#secnav, #secnav ul {
+	padding: 0;
+	list-style: none; 
+	line-height: 1;
+}
+
+#secnav a {
+	display: block;
+	line-height: 58px;
+	padding:5px 15px;
+	line-height: 16px;
+    color:#fff;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: lighter;
+}
+#secnav a:hover {
+	color:#666;
+}
+
+#secnav li:hover, #secnav li.sfhover1 {
+	background-color:#000;
+	cursor: pointer;
+}
+
+#secnav li:hover span, #secnav li.sfhover1 span {
+	color: #fff;
+}
+
+#secnav li {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+    background-color:#000;
+    margin-right:1px;
+}
+
+/* Style drop down list */
+
+#secnav li ul {
+	position: absolute;
+	width: 1em;
+	width: 188px;
+	left: -999em;
+	z-index: 10;
+	border: 1px solid #e6e6e6;
+	border-width:0px 1px 1px;
+}
+
+#secnav li li {
+	font-weight: normal;
+}
+
+#secnav li:hover ul, #secnav li.sfhover1 ul {
+	left: auto;
+}
+
+#secnav li ul li a {
+	background-color: #000;
+	line-height: 34px;
+	color: #565656;
+	font-size: 12px;
+	width: 183px;
+	padding: 0 15px;
+}
+
+#secnav li ul li a {
+}
+
+#secnav li ul li a:hover {
+	background: #D4D4D3;
+}
+
+#secnav li ul ul {
+	margin: -35px 0 0 188px;
+	border-width:1px;
+}
+
+#secnav li:hover ul ul, #secnav li.sfhover1 ul ul {
+	left: -999em;
+}
+
+#secnav li:hover ul, #secnav li li:hover ul, #secnav li.sfhover1 ul, #secnav li li.sfhover1 ul {
+	left: auto;
+}
+.newpage {  
+    margin:20px;
+    min-height:450px;
+}
+
+
+
+/* IE7 Fix */
+
+#secnav  li:hover, #secnav  li.hover {  
+	position: static;
+}
+
+
+
+
+
+

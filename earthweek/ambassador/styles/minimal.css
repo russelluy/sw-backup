@@ -1,0 +1,81 @@
+﻿/* Main Menu */
+
+#menu-main {
+	background: none;
+	border-top: 0;
+}
+
+#menu-main .wrapper {
+	background-color: #f8f8f8;
+	border-top: solid 1px #eaeaea;
+	border-bottom: solid 1px #eaeaea;
+}
+
+#menu-main .current-menu-item a,
+#menu-main a:hover, 
+#menu-main a:active {
+	color: #252525;
+} 
+
+#menu-main .current-menu-item li a {
+	color: #aaa;
+}
+
+#menu-main .sub-menu .current-menu-item a {
+	color: #aaa;
+}
+
+#menu-main li {
+	border-bottom-color: #928c81;
+}
+
+#menu-main a {
+	color: #595448;
+}
+
+#menu-main .dropdown li:hover ul,
+#menu-main .dropdown .sfHover ul {
+	border-top-color: #b4aa93;
+}
+
+#menu-main .dropdown li:hover li ul,
+#menu-main .dropdown .sfHover li ul {
+	border-top-color: #b4aa93;
+}
+
+div.navigation .current { background-color: #857f75; }
+div.navigation a:hover {
+	background-color: #857f75; 
+	color: #fff;
+}
+
+/* Footer Contact Info */
+
+#content div.wrapper {
+	border-bottom-color: #222;
+}
+
+.wrapper-footer-contacts {
+	background: none;
+	background-color: #333;
+}
+
+.footer-additional a {
+	color: #f5d876;
+}
+
+.footer-additional a:hover {
+	color: #fff;
+}
+
+#menu-main .toggle_mobile_menu { 
+	background: transparent url(../images/icon-lines-grey.png) no-repeat top left; 
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+
+	#menu-main .current-menu-item li a {
+		color: #fff;
+	}
+}

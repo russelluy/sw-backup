@@ -1,0 +1,10 @@
+#header, #sidebar, #footer, #topnav, .photo, .twosection, #comments_wrap, .breadcrumb, .print, .main_navi, .googleads, .post_navigation, #respond, .realated_product_section, #bottom {
+  display: none !important;
+}
+body, #main, #content, .column, #articletext, #footer {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+ 

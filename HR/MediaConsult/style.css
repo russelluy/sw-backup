@@ -1,0 +1,1223 @@
+/*
+Theme Name: Media Consult
+Theme URI: http://goldenworks.ro
+Description: A theme designed for business, portfolio and blog sites
+Author: Golden Works
+Version: 1.3
+*/
+@import url("css/reset.css");
+@import url("css/typography.css");
+@import url("css/slimbox2.css");
+
+input {
+	margin:0;
+	padding:0;
+}
+blockquote {
+	background:#f5f5f5;
+	padding:10px 18px 10px 18px;
+}
+#body-wrapper {
+	margin:20px auto;
+	width:960px;
+}
+#logo {
+	position:relative;
+	float:left;
+	margin:0 0 10px 0;
+}
+#logo p {
+	position:absolute;
+	top:46px;
+	left:76px;
+}
+.search-fieldset {
+	float:right;
+	width:192px;
+	margin:20px 0 0 0;
+}
+.search-input {
+	float:left;
+	width:167px;
+	height:15px;
+	padding:1px 0 0 1px;
+}
+.input-arrow {
+	border:0 none;
+	float:left;
+	height:18px;
+	position:relative;
+	left:-1px;
+	width:18px;
+	text-indent:-9000px; /* this hides the default text that comes on a submit input */	
+	font-size:0;
+	line-height:0;
+}
+
+.main-menu-wrapper {
+	float:left;
+	width:100%;
+	height:40px;
+	margin:-10px 0 0 0;
+}
+.jqueryslidemenu {
+	display:block;
+	float:right;
+	position:relative;
+	left:18px;
+	z-index:100;
+}
+.jqueryslidemenu ul {
+	list-style-type:none;
+}
+.jqueryslidemenu .primary-menu {
+	margin:10px 0 10px 10px;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li {
+	display:inline;
+	position:relative;
+	float:left;
+}
+
+/* Top level menu link items style */
+.jqueryslidemenu ul li a {
+	display:block;
+	padding:0 18px 10px 18px; /* distance between main menu and dropdowns */
+}
+
+* html .jqueryslidemenu ul li a { /*IE6 hack to get sub menu links to behave correctly*/
+	display:inline-block;
+}
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul {
+	display:block;
+	left:0;
+	position:absolute;
+	visibility:hidden;
+}
+
+/* Sub level menu list items (undo style from Top level List Items) */
+.jqueryslidemenu ul li ul li {
+	display:list-item;
+	float:none;
+}
+
+/* All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul {
+	margin-top:-1px; 
+}
+.jqueryslidemenu ul li ul li ul a {
+	top:0;
+}
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a {
+	width:190px; /* width of sub menus */
+	padding:6px 5px 6px 10px;
+	border-top-width:0;
+}
+
+/* START slideshow wrapper */
+#slideshow-wrapper {
+	float:left;
+	width:100%;
+	margin-top:16px;
+}
+#slideshow {
+    height:281px;
+    position:relative;	
+	width:960px;
+}
+#slideshow li {
+    height:281px;	
+    left:0;	
+    opacity:0.0;	
+    position:absolute;
+    top:0;
+    z-index:8;
+}
+#slideshow li.active {
+    opacity:1.0;
+    z-index:10;
+}
+#slideshow li.last-active {
+    z-index:9;
+}
+.slide-1-img {
+	float:left;
+	width:641px;
+}
+.slide-1-desc {
+	float:left;
+	height:281px;
+	position:relative;
+	width:317px;
+}
+.slide-1-desc h1, .slide-1-desc p {
+	float:left;
+	width:285px;
+	margin:10px 10px 0 16px;
+}
+.slide-1-desc h1 {
+	padding-bottom:5px;
+}
+.slide-1-desc a.more-link {
+	display:block;
+	float:left;
+	padding:1px 10px 1px 22px;		
+}
+.slide-1-desc a.more-link:hover {
+	text-decoration:none;
+}
+#home-slider {
+	width:960px;
+	z-index:6;
+	position:relative; 
+	height:281px; 
+	overflow:hidden; 	
+}
+.body-rm a, .reverse-arrow a {
+	display:block;
+	float:left;
+	margin-left:22px;
+}
+
+.slide-txt { /* styles for semi-tranparent background in the slideshow */
+	background:url(img/slide_tr.png) no-repeat top;	
+	bottom:0;
+	height:50px;	
+	left:0;	
+	position:absolute;
+	width:100%;
+}
+.slide-txt h3 {
+	margin:11px 0 0 12px;
+}
+/* END slideshow wrapper */
+
+#left, #right {
+	float:left;
+	margin-top:21px;
+}
+#left {
+	width:627px;
+	margin-right:14px;
+}
+#right {
+	width:319px;	
+}
+.latest-news {
+	float:left;
+	width:311px;
+}
+.latest-news h3 {
+	float:left;
+	margin:2px 10px 0 10px;
+	width:291px;
+}
+.widget_mc_news .ln-list {
+	float:left;
+	width:311px;
+	margin:0;
+}
+.widget_mc_news .ln-list li {
+	float:left;
+	margin:2px 0 2px 0;
+	padding:3px 0 3px 0;
+	width:311px;
+}
+.widget_mc_news .ln-list li:hover { /* please note: hover on pseudoclasses doesn't work on ie6, but the area will still be clickable, so you won't lose any functionality here */
+	cursor:pointer;
+}
+.widget_mc_news .ln-list li h6 {
+	float:left;
+	margin:0 10px 0 0;
+	height:22px;
+}
+.widget_mc_news .ln-list li p {
+	float:left;
+	margin:0 10px 0 10px;
+}
+.ln-date {
+	float:left;
+	margin:0 0 0 10px;	
+	width:114px;
+}
+#left p {
+	margin:10px 0 10px 0;
+}
+#left .header-desc, #right .header-desc {
+	float:left;
+	margin:0;
+	padding:0 0 6px 0;
+	width:100%;
+}
+.welcome-content {
+	float:left;
+	padding-bottom:10px;
+}
+/* START home services and featured case study styles */
+.h-box-1, .h-box-2 {
+	float:left;
+}
+.h-box-1 {
+	margin-right:26px;
+	width:294px;	
+}
+.h-box-2 {
+	width:307px;
+}
+.h-box-img {
+	float:left;
+	width:54px;
+	margin-right:4px;
+}
+.h-box-1 h3, .h-box-2 h3 {
+	float:left;
+	width:234px;
+	line-height:20px;
+	margin-top:6px;
+}
+#left .h-box-1 .h-box-title .header-desc {
+	float:left;
+	width:234px;
+}
+#left .h-box-2 .h-box-title .header-desc {
+	float:left;
+	width:249px;
+}
+.h-box-wrap {
+	float:left;
+	width:100%;
+}
+.h-services-list {
+	float:left;
+	width:100%;	
+}
+.h-services-list li {
+	float:left;
+	margin:2px 0 2px 0;
+	width:100%;
+}
+.h-services-list li a {
+	display:block;
+	float:left;
+	margin-left:19px;
+}
+.body-rm, .reverse-arrow {
+	float:left;
+	height:18px;
+	padding-right:8px;
+}
+/* END home services and featured case study styles */
+
+/* START newsletter styles */
+.newsletter {
+	float:left;
+	margin-top:14px;
+	width:311px;
+}
+.newsletter h3 {
+	float:left;
+	margin:2px 10px 0 10px;
+	width:291px;
+}
+.newsletter-fieldset {
+	display:inline;
+	float:left;
+	width:290px;
+	margin:10px 0 0 10px;
+}
+.newsletter-input {
+	float:left;
+	height:15px;
+	padding:1px 0 0 4px;
+	width:167px;	
+}
+.newsletter p {
+	float:left;
+	margin:10px 0 10px 10px;	
+	width:290px;
+}
+/* END newsletter styles */
+
+
+/* START footer styles */
+#footer {
+	float:left;
+	height:70px;	
+	margin-top:15px;
+	width:960px;	
+}
+#footer .f-menu {
+	float:left;
+	width:520px;
+}
+#footer .f-menu li {
+	float:left;
+	margin:16px 24px 0 0;
+}
+.copyright {
+	float:right;
+	width:300px;
+	text-align:right;
+	margin-top:16px;
+}
+/* END footer styles */
+
+.interior-header {
+	float:left;
+	width:100%;
+	padding-bottom:8px;
+	margin-bottom:14px;
+}
+*:first-child+html .interior-header { /* this applies only to ie7 */
+	padding-bottom:14px;
+}
+.interior-header h2 {
+	float:left;
+	margin:10px 14px 3px 14px;
+	width:590px;	
+}
+#left .intheader-paragraph {
+	float:left;
+	margin:4px 14px 6px 14px;
+	width:596px;
+}
+#left .interior-content h4 {
+	float:left;
+	line-height:24px;
+	margin:6px 0 2px 0;
+	width:100%;
+}
+#left .interior-content p {
+	margin:8px 0 8px 0;
+}
+#left .interior-list {
+	float:left;
+	margin:6px 0 3px 0;
+	width:100%;	
+}
+#left .interior-list li {
+	float:left;
+	margin:2px 0 2px 0;
+	width:100%;	
+	padding-left:20px;
+}
+
+/* START table styles */
+.tbl {
+	float:left;
+	margin-top:10px;
+	width:627px;
+}
+*:first-child+html .tbl { /* this applies only to ie7 */
+	margin-bottom:10px;
+}
+.tbl td {
+	float:left;
+}
+.tbl tr td {
+	padding:4px 0 4px 14px;
+}
+.tbl tr .td-1 { 
+	width:116px; 
+}
+.tbl tr .td-2 {
+	width:98px; 
+}
+.tbl tr .td-3 {
+	width:98px; 
+}
+.tbl tr .td-4 {
+	width:130px; 
+}
+.tbl tr .td-5 {
+	width:115px; 
+}
+/* END table styles */
+
+/* START tabular data block */
+.tabular-block {
+	float:left;
+	margin-top:14px;
+	width:311px;
+}
+#tabs {
+	float:left;
+	margin-left:10px;
+	width:301px;
+}
+.tabular-block h3 {
+	margin:0 0 0 10px;
+}
+.tabular-block h4 {
+	margin-top:12px;
+}
+.ui-tabs .ui-tabs-nav {
+	margin:10px 0 0 0;
+}
+.ui-tabs .ui-tabs-nav li { 
+	float:left;
+	margin:0 1px 0 1px;	
+	width:98px;
+}
+.ui-tabs .ui-tabs-nav li a { 
+	display:block;
+	height:20px;
+	padding-top:4px;		
+	text-align:center;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { 
+	cursor:text;
+}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { 
+	cursor: pointer; 
+} /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { 
+	float:left;
+	margin:6px 0 0 1px;
+	width:298px;
+}
+.ui-tabs .ui-tabs-panel h6 {
+	margin:6px 0 0 0;
+}
+.ui-tabs .ui-tabs-panel p {
+	margin:4px 0 8px 0;
+}
+.ui-tabs .ui-tabs-hide { 
+	display: none !important; 
+}	
+/* END tabular data block */
+.blog-misc {
+	display:block;
+	padding:4px 0 10px 0;
+}
+.blog-share {
+	float:left;
+	margin-bottom:32px;	
+	margin-top:-10px;
+}
+#left .interior-content .blog-share ul li {
+	float:left;
+	margin:4px 23px 0 0;	
+	width:16px;
+}
+.blog-comment-fieldset {
+	float:left;
+	width:100%;
+	margin:12px 0 0 0;
+}
+.blog-comment-fieldset ul {
+	float:left;
+	width:100%;
+}
+.blog-comment-fieldset ul li {
+	float:left;
+	margin:4px 0 4px 0;
+	width:100%;
+}
+.blog-comment-fieldset ul li label {
+	float:left;
+	margin:0 0 0 12px;
+}
+.bc-input {
+	float:left;
+	width:210px;
+	padding:2px;
+}
+.bc-textarea {
+	height:124px;
+	float:left;
+	overflow:hidden;
+	padding:2px;
+	width:494px;
+}
+.bc-submit {
+	border:0 none;
+	float:left;
+	padding:2px 10px 2px 16px;	
+}
+/* START flickr */
+.flickr {
+	float:left;
+	margin-top:14px;
+	width:311px;
+}
+*:first-child+html .flickr {
+	padding-bottom:14px;
+}
+.flickr h3 {
+	float:left;
+	margin:2px 10px 0 10px;
+	width:291px;
+}
+.flickr ul {
+	float:left; 
+	margin:10px 0 0 0; 
+	width:311px;
+}
+
+.flickr ul li {
+	float:left;
+	margin:0 0 10px 12px;	
+	width:90px;
+}
+/* END flickr */
+
+/* START blog styles */
+.blog-categ {
+	float:left;
+	width:311px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+.blog-categ h3 {
+	float:left;
+	margin:2px 10px 0 10px;
+	width:291px;
+}
+.blog-categ ul {
+	float:left; 
+	margin:10px 0 0 0; 
+	width:311px;
+}
+.blog-categ ul li {
+	float:left;
+	margin-left:10px;	
+	color:#a1a1a1;
+}
+.blog-categ ul li a {
+	float:left;
+	display:block;
+	width:288px;
+	padding:5px 0 5px 8px;
+}
+.blog-entry {
+	float:left;
+	width:100%;
+	padding-bottom:20px;
+}
+.blog-categ select {
+	margin:6px 0 0 10px;
+	width:130px;
+}
+/* END blog styles */
+
+/* START pagination styles */
+.pagination {
+	float:left;
+	width:100%;
+}
+.pagination .reverse-arrow {
+	margin-right:10px;
+}
+.pagination .page-number {
+	display:block;
+	float:right;
+	width:150px;
+	text-align:right;
+}
+/* END pagination styles */
+
+/* START services styles */
+.services-wrapper {
+	float:left;
+	width:640px;
+	margin:0 0 0 -14px;
+}
+.services-wrapper li {
+	float:left;
+	margin:2px 0 0 14px; 
+	padding-bottom:16px;
+}
+.services-wrapper li img {
+	float:left;
+	margin:0 8px 0 0;
+	width:52px;
+}
+.services-wrapper li .service-txt {
+	float:left;
+	width:244px; 
+	margin-top:-8px;
+}
+#left .interior-content .services-wrapper li .service-txt h4 {
+	margin-bottom:-3px;
+}
+#left .interior-content .services-wrapper li .service-txt h4 a:hover {
+	text-decoration:underline;
+}
+/* END services styles */
+
+.ih-date {
+	color:#a1a1a1;
+	display:block;
+	margin:0 0 0 16px;
+}
+.left-img {
+	float:left;
+	margin:6px 14px 0 0;
+}
+.right-img {
+	float:right;
+	margin:6px 0 0 14px;
+}
+.bq-detailpage {
+	float:right;
+	width:236px;
+	margin-left:10px;
+}
+.bq-detailpage .bq-author {
+	text-align:right;
+}
+/* START right box services list styles */
+.services-box {
+	float:left;
+/*	margin-top:14px; */ /*uncomment this line if you don't want services box in the right menu to be the top/first box in the right */
+	width:311px;
+}
+.services-box h3 {
+	float:left;
+	margin:2px 0 0 10px;
+	width:291px;
+}
+.services-box p {
+	float:left;
+	margin:2px 0 0 11px;
+	width:297px;
+}
+.services-box-list {
+	float:left;
+	margin:6px 0 3px 10px;
+	width:291px;	
+}
+.services-box-list li {
+	float:left;
+	margin:2px 0 2px 0;
+	width:100%;	
+}
+.services-box-list li a {
+	display:block;
+	margin-left:20px;
+	width:160px; /* change this width if the name of right services box list is too long */
+}
+/* END right box services list styles */
+
+/* START about us box */
+.aboutus-box {
+	float:left;
+	margin-top:14px; 
+	padding-bottom:14px;	
+	width:311px;
+}
+.aboutus-box h3 {
+	float:left;
+	margin:2px 0 0 10px;
+	width:291px;
+}
+.aboutus-box p {
+	float:left;
+	margin:2px 0 0 11px;
+	width:297px;
+}
+.aboutus-box .body-rm {
+	margin:3px 0 0 10px;
+}
+/* END about us box */
+
+/* START contact form styles */
+.contact-fieldset {
+	float:left;
+	width:100%;
+	margin:12px 0 0 0;
+}
+.contact-fieldset ul {
+	float:left;
+	margin-top:10px;
+	width:100%;
+}
+.contact-fieldset ul li {
+	float:left;
+	margin:4px 0 4px 0;
+	width:100%;
+}
+.contact-fieldset ul li label {
+	float:left;
+	width:100px;
+}
+.contact-input {
+	float:left;
+	width:210px;
+	padding:2px;
+}
+.contact-textarea {
+	height:116px;
+	float:left;
+	overflow:hidden;
+	padding:2px;
+	width:320px;
+}
+.contact-submit {
+	border:0 none;
+	float:left;
+	height:19px;
+	margin-left:100px;
+	padding-left:8px;	
+	padding:0 0 1px 8px;
+	width:100px;
+}
+/* END contact form styles */
+
+/* START map and address styles */
+.address-box {
+	float:left;
+	padding-bottom:10px;	
+	width:311px;
+	margin-bottom:22px;
+}
+.address-box h3 {
+	float:left;
+	margin:2px 0 0 10px;
+	width:291px;
+}
+.address-box .map-img {
+	margin:10px 0 0 11px;
+}
+.address-box .map-txt {
+	float:left;
+	padding-bottom:6px;	
+	position:relative;
+	left:11px;
+	top:-2px;
+	width:297px;
+}
+.address-box address {
+	float:left;
+	margin:2px 0 0 11px;
+	width:297px;
+}
+.address-box address span {
+	display:block;
+	margin:6px 0 0 0;
+}
+/* END map and address styles */
+
+/* START news list styles */
+.ih-rss {
+	display:block;
+	margin:0 0 0 16px;
+	padding-bottom:4px;
+}
+.ih-rss img {
+	margin-right:5px;
+	position:relative;
+	top:3px;
+}
+.newslist-wrapper {
+	float:left;
+	width:100%;
+}
+*:first-child+html .newslist-wrapper  { /* this applies only to ie7 */
+	padding-bottom:6px;
+}
+.newslist-wrapper li {
+	float:left;
+	width:100%;
+	margin:12px 0 6px 0;
+}
+.newslist-wrapper li .news-img {
+	float:left;
+	margin:0 12px 0 0;
+	width:72px;
+}
+#left .interior-content .newslist-wrapper li h4, .newslist-date, #left .interior-content .newslist-wrapper li p {
+	float:left;
+	width:540px;
+}
+#left .interior-content .newslist-wrapper li .newslist-content {
+	float:left;
+	width:540px;
+}
+#left .interior-content .newslist-wrapper li h4 {
+	margin:-3px 0 0 -1px;
+}
+#left .interior-content .newslist-wrapper li h4 a:hover {
+	text-decoration:underline;
+}
+.newslist-date {
+	float:left;
+	display:block;
+	line-height:12px; 
+}
+#left .interior-content .newslist-wrapper li p {
+	margin:6px 0 0 0;
+	padding:0;
+}
+/* END news list styles */
+
+/* START portfolio page styles */
+#full {/* full content wrapper - use this class when you don't want to have body splitted into left and right standard containers */
+	float:left;
+	margin-top:21px;
+	width:960px;	
+}
+#full .full-h {
+	margin:10px 14px 0 14px;	
+	width:932px;	
+}
+#full .intheader-paragraph {
+	float:left;
+	margin:4px 14px 8px 14px;
+	width:932px;	
+}
+.portfolio-wrapper {
+	float:left;
+	width:990px;
+	margin:0 0 0 -30px;
+}
+.portfolio-wrapper li {
+	float:left;
+	margin:16px 0 10px 30px;
+	width:300px;
+}
+.portfolio-wrapper li h4 {
+	float:left;
+	margin:0 7px 8px 7px;
+	width:286px;	
+}
+/* END portfolio page styles */
+
+.contact-error p, .contact-success p, .contact-jerror p {
+	padding:0 10px 0 10px;
+}
+.more-link {
+	padding:3px 10px 3px 22px;
+}
+.previous-pag a, .next-pag a {
+	padding:1px 10px 1px 22px;
+	display:block;
+	float:left;
+}
+.previous-pag a {
+	margin-right:10px;
+}
+
+/* start comment styles */
+#commentform {
+	padding-bottom:10px; 
+}
+.commententry {
+	float:left;
+	width:100%;
+}	
+.commententry li, .commententry ul, .commententry ol {
+	border:none; 
+}
+.commentlist, .commentlist li {
+	clear:both;
+	position:relative;
+	list-style-type:none;
+	padding:10px 0 0 0px;
+	background-image:none;
+	margin-bottom:10px;
+}
+.commentlist {
+	padding:0 0 0 64px;
+}
+.commentlist li {
+	margin-top:20px;
+}
+#respond {
+	clear:both;
+	width:100%; 
+}
+#commentform p, fieldset p {
+	clear:both;
+}	
+.commentlist .says {
+	display:none; 
+}
+.commentlist .avatar {
+	padding:2px;
+	position:absolute;
+	top:0;
+	left:-64px;
+	z-index:3; 
+}
+.commentlist .commentmetadata a {
+	position:relative;
+	font-size: 11px;
+	text-decoration:none;
+	line-height:12px;  
+	left:0;
+	top:-3px; 
+}
+.fn {
+	font-weight:bold;
+	font-style:normal;
+	font-size: 12px;
+	position:relative;
+	top:-7px;
+	left:0;	
+}	
+.fn a {
+	text-decoration:none;
+}
+.reply {
+	font-size:11px;
+	position:absolute;
+	top:56px;
+	left:-46px;
+	text-transform:lowercase;
+}
+.reply a {
+	text-decoration:none;
+}
+.reply a:hover {
+	text-decoration:underline;
+}
+.comment_nav {
+	float:left;
+	padding:16px 0 16px 0px;
+	width:100%;
+}
+.comment_nav a {
+	text-decoration:none;
+	cursor:pointer; 
+}
+.comment_next a {
+	float:right;
+	padding:1px 10px 1px 22px;
+	display:block;	
+}
+.comment_prev a {
+	float:left;
+	padding:1px 10px 1px 22px;
+	display:block;	
+}
+.commentlist .children {
+	padding-left:26px;
+	padding-bottom:0;
+}
+.children li {
+	padding-right:0; 
+}
+#cancel-comment-reply-link {
+	float:right;
+	height:26px;
+	line-height:26px;
+	margin-right:1px;
+	position:relative;
+	right:14px;
+	text-decoration:none;
+}
+/* end comment styles */
+.newslist-wrapper li .more-link {
+	background:none;
+	padding:0;
+}
+.newslist-wrapper li .more-link:hover {
+	background:none;
+	text-decoration:underline;
+	padding:0;	
+}
+/* start search and archive results pages */
+.search-results-title, .archive-header {
+	float:left;
+	width:100%;
+}
+.search-results-title h3, .archive-header h3, .search-results-title h2, .archive-header h2 {
+	padding:8px 0 10px 14px;
+}
+.search-results {
+	float:left;
+	width:100%;
+	margin-top:20px;
+}
+#left .interior-content .archive-results p {
+	float:left;
+	margin:0;
+	padding-bottom:12px;
+}
+.search-results h4 a, .archive-results h4 a  {
+	text-decoration:none;
+	color:#666;
+}
+.search-results h4 a:hover, .archive-results h4 a:hover {
+	color:#666;
+}
+.search-results h2 a, .archive-results h2 a {
+	text-decoration:none;
+}
+.search-results h4 a:hover, .archive-results h4 a:hover {
+	text-decoration:underline;
+}
+.search-categ-display {
+	float:left;
+	width:100%;
+	padding:3px 0 12px 0;
+}
+/* end search results and archive pages */
+
+/* start slider dots styles */
+#slideshow-wrapper {
+	position:relative;
+}
+#nav {
+	bottom:16px;
+	height:9px;
+	right:10px;	
+	position:absolute;
+	z-index:10; 
+}
+#nav a { 
+	background:url(img/slide_bullet.png) no-repeat 0 0;  
+	display:block;
+	height:9px;	
+	float:left;		
+	margin:0 5px 0 5px;
+	padding:0;
+	text-decoration:none; 
+	text-indent:-9999px;
+	width:9px;	
+}
+
+#nav a.activeSlide { 
+	background-position: 0px -9px;  		
+}
+#nav a:focus { 
+	outline:none; 
+}
+#nav a {/* for ie6 only */
+	font-size:0;
+	line-height:0;
+}
+.slide-img {
+	float:left;
+	width:641px;
+}
+.hp-margin {
+	margin:14px 0 0 0;
+}
+/* end slider dots styles */
+
+.textwidget {
+	padding:6px 0 0 10px;
+	float:left;
+}
+/* START brochure styles */
+.widget_mc_brochure {
+	float:left;
+	margin:0 0 20px 0;
+	padding:0 0 8px 0;
+	width:311px; 
+}
+.widget_mc_brochure h3 {
+	float:left;
+	margin:0;
+	width:240px;
+}
+.widget_mc_brochure img {
+	float:left;
+	margin:6px 10px 0 10px;	
+	width:43px; 
+}
+.brochure-title {
+	float:left;
+	margin-top:8px;
+	width:246px;
+}
+.widget_mc_brochure:hover {
+	cursor:pointer;
+}
+/* END brochure styles */
+
+/*start calendar styles */
+
+.widget_calendar table {
+	float:left;
+	width:250px;
+	height:200px;
+	margin:10px 0 0 12px;
+}
+.widget_calendar table td {
+	text-align:center;
+}
+/*end calendar styles */
+
+.jqueryslidemenu .menu {
+	margin:10px 0 10px 10px;
+}
+
+.alignleft, img.alignleft, a img.alignleft {
+	float:left; 
+	margin:5px 12px 0 0;
+}
+.alignright, img.alignright, a img.alignright {
+	float:right; 
+	margin:5px 0 0 12px;
+}
+.alignleft img, .alignright img {
+	display:block;
+}
+.interior-content p {
+	padding-bottom:10px;
+}
+/* start toggle content */
+h4.toggle {
+	margin:8px 0 0 0;
+	padding:6px 0 4px 22px; 
+	float:left;
+}
+h4.toggle a {
+	text-decoration: none;
+	display:block;
+}
+.toggle-content {
+	clear:both;
+	overflow:hidden;
+	float:left;
+	width:100%;
+}
+#left .toggle-content .block, .toggle-content .block {
+	padding:14px 20px 14px 20px;
+	float:left;
+}
+/* end toggle content */
+#left .toggle-content .block p, .toggle-content .block p {
+	margin:0;
+	padding:4px 0 4px 0;
+	float:left;
+	width:100%;
+}
+
+#left .services-wrapper li .interior-list {
+	margin-top:-4px;
+}
+#left .services-wrapper li .interior-list li {
+	margin:2px 0 2px 0;
+	padding-bottom:0;
+}
+.slideshow-rm {
+	float:left;
+	width:285px;
+	margin:10px 10px 0 16px;	
+}
+.slc-wrapper {
+	width:100%; 
+	float:left;
+}
+#left .bullet-list, #right .bullet-list {
+	float:left;
+	width:100%;
+	list-style:inside disc;
+}
+#left .bullet-list li, #right .bullet-list li {
+	list-style:inside disc;
+	width:100%;
+	margin:4px 0 0 0;		
+}
+.clear {
+	clear:both;	
+}

@@ -1,0 +1,21 @@
+/*----------------------------------------------------
+          CSS - Exclusively for IE7
+------------------------------------------------------*/
+
+.top-header_rt_nav{ right: 10px;}
+#sidebar {
+    margin-top: -33px;
+}
+#header_img {
+position:relative;
+margin:0 auto;
+top:-31px;
+}
+#header .description {
+position:relative;
+top:-30px;
+}
+#headering_msg {
+top: 55px;
+line-height: 1;
+}

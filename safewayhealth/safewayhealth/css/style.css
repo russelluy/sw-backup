@@ -1,0 +1,146 @@
+/*
+Theme Name: TutToaster Navigation
+Theme URI: http://tuttoaster.com
+Description: Theme for TutToaster Multi-Level Wordpress Navigation Tutorial
+Version: 2.9.2
+Author: Cody Ryan Robertson
+Author URI: http://tuttoaster.com
+Tags: tuttoaster, navigation, unfinished
+*/
+
+/* Basic Reset */
+* { margin: 0; padding:0; }
+
+/* Header */
+#header {
+	height: 123px;
+}
+
+/* Top Level Menu */
+#header ul {
+	margin: 0 auto;
+	width: 605px;
+}
+
+#header ul li {
+	display: block;
+	float: left;
+	margin: 40px 0 0;
+	width: 100px;
+}
+
+#header ul li a {
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	font-family:Verdana;font-size:11px;
+	font-weight:bold;
+}
+
+/* Sub Level Nav */
+#header ul li ul {
+	background: #FFF;
+    border:2px solid #ddd;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin: 16px 0 0 -65px;
+    padding: 0 10px;
+    position: relative;
+    width: 200px;
+}
+
+.subheader{
+	background: #3baeb3;
+	border: 1px solid #000;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin: 105px 0 0 40px;
+    padding: 0 10px;
+    position: absolute;
+    z-index: -1;
+}
+.subheader2{
+	background: #3baeb3;
+	border: 1px solid #000;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin: 105px 0 0 0px;
+    padding: 0 10px;
+    position: absolute;
+    z-index: -1;
+}
+.subheader_nav{
+    float: left;
+    height: 20px;
+    margin: 0 5px;
+    padding: 8px 5px 4px;
+}
+.subheader_nav a{
+	color:#fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+.subheader_nav a:hover{
+	color:#000;
+}
+
+#header ul li ul li {
+	border-bottom: 1px solid #CCC;
+	display: block;
+	float: none;
+	height: 30px;
+	padding: 8px 0;
+	text-align: center;
+	width: 200px;
+	margin: 0;
+}
+#header ul li ul li #dd_a{
+	border-bottom: 1px solid red;
+	display: block;
+	float: none;
+	height: 30px;
+	padding: 8px 0;
+	text-align: center;
+	width: 200px;
+	margin: 0;
+}
+
+
+#header ul li ul li a {
+	 
+    color: #000;
+    height: 12px;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: none;
+    width: 200px;
+    
+}
+
+#header ul li ul li a:hover {
+	color: #005695;
+}
+
+#header ul li ul li:last-child:not(li.arrow) {
+	border: 0;
+}
+
+/* Arrow */
+.arrow {
+	background: url(../images/arrow.png) no-repeat;
+	border: 0;
+	display: none;
+	position: absolute;
+		top: -10px;
+		left: 100px;
+	height: 11px;
+	width: 20px;
+	text-indent: -9999px;
+}
+.footer2 a {font-size:11px!important;font-weight: bold;}
+.footer2 a:hover {color:#ccc!important;}
+
+
+
